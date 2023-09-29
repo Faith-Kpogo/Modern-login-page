@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <div class="container" id="container">
+    <div class="form sign-up">
+        <form action="">
+            <h1>Create Account</h1>
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button> <br>
+            <div class="divider">
+                <div class="line"></div><span>OR</span><div class="line"></div>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+            </div>
+        </form>
+    </div>
+    <div class="form sign-in">
+            <form action="">
+                <h1>Login</h1>  
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button> <br>
+                <div class="divider">
+                    <div class="line"></div><span>OR</span><div class="line"></div>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                </div>
+            </form>
+    </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all the sites features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello Friend!</h1>
+                    <p>Register with your personal details to use all the sites features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
